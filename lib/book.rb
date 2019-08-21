@@ -1,7 +1,7 @@
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre 
-  genre_array = []
+  GENRE = []
 
   def initialize(title)
     @title = title
@@ -13,6 +13,6 @@ class Book
 
   def genre=(genre)
     @genre = genre 
-    genre_array << genre 
+    GENRE << genre 
   end 
 end
