@@ -4,7 +4,6 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    brand = brand.uniq
     @brand = brand
     BRANDS << brand
   end
@@ -12,8 +11,5 @@ class Shoe
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-  end
-  
-
-  
+  end 
 end
