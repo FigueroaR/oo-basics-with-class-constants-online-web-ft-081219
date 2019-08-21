@@ -7,6 +7,7 @@ class Shoe
     @brand = brand
     if brand
     BRANDS << brand
+    
   end
 
   def cobble
