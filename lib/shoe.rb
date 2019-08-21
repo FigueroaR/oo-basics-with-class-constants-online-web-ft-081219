@@ -7,7 +7,7 @@ class Shoe
     @brand = brand
     if brand
     BRANDS << brand
-    
+    BRANDS == BRANDS.uniq!
   end
 
   def cobble
