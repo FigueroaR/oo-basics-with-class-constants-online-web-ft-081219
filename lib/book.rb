@@ -14,4 +14,5 @@ class Book
   def genre=(genre)
     @genre = genre 
     genre_array << genre 
+  end 
 end
